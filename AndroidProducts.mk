@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dopinder.mk
+    $(LOCAL_DIR)/ev_dopinder.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_dopinder-eng \
-    lineage_dopinder-user \
-    lineage_dopinder-userdebug
+    ev_dopinder-eng \
+    ev_dopinder-user \
+    ev_dopinder-userdebug

@@ -7,8 +7,8 @@
 # Inherit some common AOSP stuff
 $(call inherit-product, device/google/atv/products/atv_base.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+# Inherit some common Evervolv stuff
+$(call inherit-product, $(SRC_EVERVOLV_DIR)/config/common_full_tv.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -19,7 +19,7 @@ PRODUCT_DEVICE := dopinder
 PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
 PRODUCT_MANUFACTURER := askey
 PRODUCT_MODEL := sti6140d360
-PRODUCT_NAME := lineage_dopinder
+PRODUCT_NAME := ev_dopinder
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=sti6140d360 \
